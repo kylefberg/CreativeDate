@@ -1,6 +1,6 @@
 webpackJsonp([11],{
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,56 +13,56 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 107;
+webpackEmptyAsyncContext.id = 108;
 
 /***/ }),
 
-/***/ 149:
+/***/ 150:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/ahoy-matey/ahoy-matey.module": [
 		269,
-		9
+		10
 	],
 	"../pages/become-a-tourest-in-your-own-city/become-a-tourest-in-your-own-city.module": [
-		270,
+		271,
 		8
 	],
 	"../pages/chop-tops-and-greasers/chop-tops-and-greasers.module": [
-		271,
+		272,
 		7
 	],
 	"../pages/date/date.module": [
-		268,
-		10
+		270,
+		9
 	],
 	"../pages/experience-the-wild-west/experience-the-wild-west.module": [
-		272,
+		273,
 		6
 	],
 	"../pages/find-your-inner-animal/find-your-inner-animal.module": [
-		273,
+		274,
 		5
 	],
 	"../pages/music101/music101.module": [
-		274,
+		275,
 		4
 	],
 	"../pages/paint-the-town-red/paint-the-town-red.module": [
-		275,
+		276,
 		3
 	],
 	"../pages/post/post.module": [
-		276,
+		277,
 		2
 	],
 	"../pages/speakeasy/speakeasy.module": [
-		277,
+		278,
 		1
 	],
 	"../pages/whats-in-the-east/whats-in-the-east.module": [
-		278,
+		279,
 		0
 	]
 };
@@ -77,19 +77,19 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 149;
+webpackAsyncContext.id = 150;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 193:
+/***/ 194:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__date_date__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__date_date__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -110,7 +110,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 TabsPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Dates" tabIcon="mail"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/tabs/tabs.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Dates" tabIcon="mail"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/tabs/tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);
@@ -119,13 +119,13 @@ TabsPage = __decorate([
 
 /***/ }),
 
-/***/ 194:
+/***/ 195:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -159,23 +159,22 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Creative Date</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="card-background-page">\n  <ion-card >\n    <ion-card-content>\n    <img src="../assets/photos/cdBranding.jpg" alt="">\n      <ion-card-title>\n      </ion-card-title>\n    </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Creative Date</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content class="card-background-page">\n  <ion-card >\n    <ion-card-content>\n    <img src="../assets/photos/cdBranding.jpg" alt="">\n      <ion-card-title>\n      </ion-card-title>\n    </ion-card-content>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], HomePage);
 
-var _a;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
 
-/***/ 195:
+/***/ 196:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(215);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -183,24 +182,24 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 214:
+/***/ 215:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(254);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_about_about__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__ = __webpack_require__(264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_date_date__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_ahoy_matey_ahoy_matey__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_data_data__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_about_about__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_date_date__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_ahoy_matey_ahoy_matey__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_data_data__ = __webpack_require__(266);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -240,8 +239,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                 links: [
-                    { loadChildren: '../pages/date/date.module#DatePageModule', name: 'Date', segment: 'date', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/ahoy-matey/ahoy-matey.module#AhoyMateyPageModule', name: 'AhoyMateyPage', segment: 'ahoy-matey', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/date/date.module#DatePageModule', name: 'Date', segment: 'date', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/become-a-tourest-in-your-own-city/become-a-tourest-in-your-own-city.module#BecomeATourestInYourOwnCityPageModule', name: 'BecomeATourestInYourOwnCityPage', segment: 'become-a-tourest-in-your-own-city', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/chop-tops-and-greasers/chop-tops-and-greasers.module#ChopTopsAndGreasersPageModule', name: 'ChopTopsAndGreasersPage', segment: 'chop-tops-and-greasers', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/experience-the-wild-west/experience-the-wild-west.module#ExperienceTheWildWestPageModule', name: 'ExperienceTheWildWestPage', segment: 'experience-the-wild-west', priority: 'low', defaultHistory: [] },
@@ -277,16 +276,16 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 254:
+/***/ 255:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__ = __webpack_require__(194);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -314,7 +313,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/app/app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
@@ -323,13 +322,13 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 263:
+/***/ 264:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -349,7 +348,7 @@ var AboutPage = (function () {
 }());
 AboutPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-about',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/about/about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/about/about.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], AboutPage);
@@ -358,13 +357,13 @@ AboutPage = __decorate([
 
 /***/ }),
 
-/***/ 264:
+/***/ 265:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -384,7 +383,7 @@ var ContactPage = (function () {
 }());
 ContactPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-left></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/contact/contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-left></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/contact/contact.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], ContactPage);
@@ -393,14 +392,14 @@ ContactPage = __decorate([
 
 /***/ }),
 
-/***/ 265:
+/***/ 266:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(268);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -436,13 +435,13 @@ DataProvider = __decorate([
 
 /***/ }),
 
-/***/ 279:
+/***/ 98:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AhoyMateyPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -473,24 +472,23 @@ var AhoyMateyPage = (function () {
 AhoyMateyPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-ahoy-matey',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/ahoy-matey/ahoy-matey.html"*/'<!--\n  Generated template for the AhoyMateyPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>AhoyMatey</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-slides pager>\n\n    <ion-slide style="background-color: green">\n      <h2>Slide 1</h2>\n    </ion-slide>\n\n    <ion-slide style="background-color: blue">\n      <h2>Slide 2</h2>\n    </ion-slide>\n\n    <ion-slide style="background-color: red">\n      <h2>Slide 3</h2>\n    </ion-slide>\n\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/ahoy-matey/ahoy-matey.html"*/,
+        selector: 'page-ahoy-matey',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/ahoy-matey/ahoy-matey.html"*/'<!--\n  Generated template for the AhoyMateyPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>AhoyMatey</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <h1>Hello World</h1>\n    <br/>\n    <p>Congratulations, you have chosen the adventure of a CREATIVEDATE.\n      <br/><br/>\n      Your first task is to get ready to go. You and your date must dress for a\n      casual night on the town.\n      <br/>\n      Be prepared as you may be asked to accomplish CHALLENGES and CHOICES, which\n      may include walking, being outside, and even talking!\n      <br/>\n      You must bring your ID and Phone.\n      <br/>\n      This date is best used starting anytime after 2pm, any day of the week.\n      <br/><br/>\n      You and your date must drive to Pier 57 at 1301 Alaskan Way.\n      <br/>\n      *You won’t be staying for long, so don’t pay for more then 1.5 hours of parking\n    </p>\n      <h3>When you arrive, open your next clue.</h3>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/ahoy-matey/ahoy-matey.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], AhoyMateyPage);
 
-var _a, _b;
 //# sourceMappingURL=ahoy-matey.js.map
 
 /***/ }),
 
-/***/ 98:
+/***/ 99:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DatePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ahoy_matey_ahoy_matey__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ahoy_matey_ahoy_matey__ = __webpack_require__(98);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -534,15 +532,14 @@ var DatePage = (function () {
 }());
 DatePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-date',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/date/date.html"*/'<!--\n  Generated template for the PostPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Dates</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-slides pager>\n\n  <ion-slide style="background-color: black">\n    <h2 style="color: white;">\n      Ahoy Matey!\n    </h2>\n    <img src="../assets/photos/pirateShip.jpg" alt="">\n    <p style="color: white;">\n        Seattle is a major port city and has a long seafaring history.\n        Although you won\'t be going on a boat, on this dinner date you\n        will get a chance to embrace your inner mariner.\n    </p>\n    <button ion-button icon-start (click)="nextPage();">\n      Use Date\n    </button>\n  </ion-slide>\n\n  <ion-slide style="background-color: blue">\n    <h2>\n      Become a tourist <br>\n      in your own city\n    </h2>\n    <img src="../assets/photos/seattle.jpg" alt="">\n    <p>\n        Being a tourist is fun and exciting, that\'s why we like to go\n        on vacations. It\'s time to rediscover your city and snap out\n        of your normal routine.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      Choptops and Greasers\n    </h2>\n    <img src="../assets/photos/chop.jpg" alt="">\n    <p>\n        Fashion, food, and fun from the 50\'s! This adventure will take\n        you through the city where you\'ll complete CHALLENGES and CHOICES,\n        along the way.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      Experience the <br>\n      Wild West\n    </h2>\n    <img src="../assets/photos/west.jpg" alt="">\n    <p>\n        Embrace the fact that you live on the West coast! Saddle up and\n        get ready for a dating adventure.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      Find your inner <br>\n      animal\n    </h2>\n    <img src="../assets/photos/west.jpg" alt="">\n    <p>\n        If you love animals, you will love this date. Embrace your inner\n        animal and get ready for an adventure.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: purple">\n    <h2>\n      Music 101\n    </h2>\n    <img src="../assets/photos/music.jpg" alt="">\n    <p>\n        Have you ever wanted to learn how to play the guitar or piano\n        but just couldn\'t find the time?\n        Or maybe you would just rather go out to eat?\n        Well, we\'re not going to teach you how to play an instrument,\n        but we can help you have an adventure on your dinner date.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      Paint the town red\n    </h2>\n    <img src="../assets/photos/red.jpg" alt="">\n    <p>\n        On this dinner date, you are going to have the chance to really\n        paint the town red. What might that look like you ask? <br>\n        Well it most likely won\'t be what you expect. <br>\n        Get ready to see red.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: brown">\n    <h2>\n      Speakeasy\n    </h2>\n    <img src="../assets/photos/speakeasy.jpg" alt="">\n    <p>\n        By 1931 Washington State was home to approximately 4,000 speakeasies.\n        Only a few remain. <br>\n        True to the speakeasies of the 1920s there are no guarantees that\n        you will find the places we will send you to, or that you will get in.\n        Watch out for the coppers and if anyone asks where you are going, don\'t\n        say a word. This is one of our hardest dates, so I hope you are\n        up for the challenge because it will be one. <br>\n        Due to the nature of this date, you will be directed to alternate\n        restaurants in case you are not able to gain access.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      What\'s in the East\n    </h2>\n      <img src="../assets/photos/china.jpg" alt="">\n      <p>\n          Have you ever wanted to go East? How far would you go? Here is\n          your chance to experience the East from your own backyard.\n          Don\'t forget your passport or that this is a dinner date,\n          so come hungry.\n      </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      And baby makes <br>three Central\n    </h2>\n    <img src="../assets/photos/baby.jpg" alt="">\n    <p>\n        Having a child is an amazing experience. It is truly a blessing. <br>\n        It is also amazing how the days fly by and the chances to go out\n        are slim to none. Having been in that spot, we set out to find\n        some great locations just East of downtown Seattle where you can\n        relax with a drink and feel like an adult again, with baby in tow. <br>\n        Since this date is designed for parents who are connecting after having\n        a child, the focus will be more on sparking conversation rather than\n        on exploring different parts of the city.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      And baby makes three South\n    </h2>\n    <img src="../assets/photos/baby1.jpg" alt="">\n    <p>\n        Having a child is an amazing experience. It is truly a blessing. <br>\n        It is also amazing how the days fly by and the chances to go out\n        are slim to none. Having been in that spot, we set out to find\n        some great locations just South of downtown Seattle where you can\n        relax with a drink and feel like an adult again, with baby in tow. <br>\n        Since this date is designed for parents who are connecting after having\n        a child, the focus will be more on sparking conversation rather than\n        on exploring different parts of the city.\n    </p>\n  </ion-slide>\n\n</ion-slides>\n\n\n\n\n\n\n\n\n\n\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/creativeDateApp/src/pages/date/date.html"*/,
+        selector: 'page-date',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/date/date.html"*/'<!--\n  Generated template for the PostPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Dates</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-slides pager>\n\n  <ion-slide style="background-color: black">\n    <h2 style="color: white;">\n      Ahoy Matey!\n    </h2>\n    <img src="../assets/photos/pirateShip.jpg" alt="">\n    <p style="color: white;">\n        Seattle is a major port city and has a long seafaring history.\n        Although you won\'t be going on a boat, on this dinner date you\n        will get a chance to embrace your inner mariner.\n    </p>\n    <button ion-button icon-start (click)="nextPage();">\n      Use Date\n    </button>\n  </ion-slide>\n\n  <ion-slide style="background-color: blue">\n    <h2>\n      Become a tourist <br>\n      in your own city\n    </h2>\n    <img src="../assets/photos/seattle.jpg" alt="">\n    <p>\n        Being a tourist is fun and exciting, that\'s why we like to go\n        on vacations. It\'s time to rediscover your city and snap out\n        of your normal routine.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      Choptops and Greasers\n    </h2>\n    <img src="../assets/photos/chop.jpg" alt="">\n    <p>\n        Fashion, food, and fun from the 50\'s! This adventure will take\n        you through the city where you\'ll complete CHALLENGES and CHOICES,\n        along the way.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      Experience the <br>\n      Wild West\n    </h2>\n    <img src="../assets/photos/west.jpg" alt="">\n    <p>\n        Embrace the fact that you live on the West coast! Saddle up and\n        get ready for a dating adventure.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      Find your inner <br>\n      animal\n    </h2>\n    <img src="../assets/photos/west.jpg" alt="">\n    <p>\n        If you love animals, you will love this date. Embrace your inner\n        animal and get ready for an adventure.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: purple">\n    <h2>\n      Music 101\n    </h2>\n    <img src="../assets/photos/music.jpg" alt="">\n    <p>\n        Have you ever wanted to learn how to play the guitar or piano\n        but just couldn\'t find the time?\n        Or maybe you would just rather go out to eat?\n        Well, we\'re not going to teach you how to play an instrument,\n        but we can help you have an adventure on your dinner date.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      Paint the town red\n    </h2>\n    <img src="../assets/photos/red.jpg" alt="">\n    <p>\n        On this dinner date, you are going to have the chance to really\n        paint the town red. What might that look like you ask? <br>\n        Well it most likely won\'t be what you expect. <br>\n        Get ready to see red.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: brown">\n    <h2>\n      Speakeasy\n    </h2>\n    <img src="../assets/photos/speakeasy.jpg" alt="">\n    <p>\n        By 1931 Washington State was home to approximately 4,000 speakeasies.\n        Only a few remain. <br>\n        True to the speakeasies of the 1920s there are no guarantees that\n        you will find the places we will send you to, or that you will get in.\n        Watch out for the coppers and if anyone asks where you are going, don\'t\n        say a word. This is one of our hardest dates, so I hope you are\n        up for the challenge because it will be one. <br>\n        Due to the nature of this date, you will be directed to alternate\n        restaurants in case you are not able to gain access.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      What\'s in the East\n    </h2>\n      <img src="../assets/photos/china.jpg" alt="">\n      <p>\n          Have you ever wanted to go East? How far would you go? Here is\n          your chance to experience the East from your own backyard.\n          Don\'t forget your passport or that this is a dinner date,\n          so come hungry.\n      </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      And baby makes <br>three Central\n    </h2>\n    <img src="../assets/photos/baby.jpg" alt="">\n    <p>\n        Having a child is an amazing experience. It is truly a blessing. <br>\n        It is also amazing how the days fly by and the chances to go out\n        are slim to none. Having been in that spot, we set out to find\n        some great locations just East of downtown Seattle where you can\n        relax with a drink and feel like an adult again, with baby in tow. <br>\n        Since this date is designed for parents who are connecting after having\n        a child, the focus will be more on sparking conversation rather than\n        on exploring different parts of the city.\n    </p>\n  </ion-slide>\n\n  <ion-slide style="background-color: red">\n    <h2>\n      And baby makes three South\n    </h2>\n    <img src="../assets/photos/baby1.jpg" alt="">\n    <p>\n        Having a child is an amazing experience. It is truly a blessing. <br>\n        It is also amazing how the days fly by and the chances to go out\n        are slim to none. Having been in that spot, we set out to find\n        some great locations just South of downtown Seattle where you can\n        relax with a drink and feel like an adult again, with baby in tow. <br>\n        Since this date is designed for parents who are connecting after having\n        a child, the focus will be more on sparking conversation rather than\n        on exploring different parts of the city.\n    </p>\n  </ion-slide>\n\n</ion-slides>\n\n\n\n\n\n\n\n\n\n\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/date/date.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], DatePage);
 
-var _a;
 //# sourceMappingURL=date.js.map
 
 /***/ })
 
-},[195]);
+},[196]);
 //# sourceMappingURL=main.js.map
