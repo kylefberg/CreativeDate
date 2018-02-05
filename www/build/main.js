@@ -1,4 +1,4 @@
-webpackJsonp([11],{
+webpackJsonp([15],{
 
 /***/ 108:
 /***/ (function(module, exports) {
@@ -23,46 +23,62 @@ webpackEmptyAsyncContext.id = 108;
 var map = {
 	"../pages/ahoy-matey/ahoy-matey.module": [
 		269,
+		14
+	],
+	"../pages/ahoy-matey1/ahoy-matey1.module": [
+		271,
+		12
+	],
+	"../pages/ahoy-matey2/ahoy-matey2.module": [
+		272,
+		11
+	],
+	"../pages/ahoy-matey3/ahoy-matey3.module": [
+		273,
 		10
 	],
+	"../pages/ahoy-matey4/ahoy-matey4.module": [
+		274,
+		9
+	],
 	"../pages/become-a-tourest-in-your-own-city/become-a-tourest-in-your-own-city.module": [
-		271,
+		275,
 		8
 	],
 	"../pages/chop-tops-and-greasers/chop-tops-and-greasers.module": [
-		272,
+		276,
 		7
 	],
 	"../pages/date/date.module": [
 		270,
-		9
+		13
 	],
 	"../pages/experience-the-wild-west/experience-the-wild-west.module": [
-		273,
+		277,
 		6
 	],
 	"../pages/find-your-inner-animal/find-your-inner-animal.module": [
-		274,
+		278,
 		5
 	],
 	"../pages/music101/music101.module": [
-		275,
+		279,
 		4
 	],
 	"../pages/paint-the-town-red/paint-the-town-red.module": [
-		276,
+		280,
 		3
 	],
 	"../pages/post/post.module": [
-		277,
+		281,
 		2
 	],
 	"../pages/speakeasy/speakeasy.module": [
-		278,
+		282,
 		1
 	],
 	"../pages/whats-in-the-east/whats-in-the-east.module": [
-		279,
+		283,
 		0
 	]
 };
@@ -241,6 +257,10 @@ AppModule = __decorate([
                 links: [
                     { loadChildren: '../pages/ahoy-matey/ahoy-matey.module#AhoyMateyPageModule', name: 'AhoyMateyPage', segment: 'ahoy-matey', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/date/date.module#DatePageModule', name: 'Date', segment: 'date', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/ahoy-matey1/ahoy-matey1.module#AhoyMatey1PageModule', name: 'AhoyMatey1Page', segment: 'ahoy-matey1', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/ahoy-matey2/ahoy-matey2.module#AhoyMatey2PageModule', name: 'AhoyMatey2Page', segment: 'ahoy-matey2', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/ahoy-matey3/ahoy-matey3.module#AhoyMatey3PageModule', name: 'AhoyMatey3Page', segment: 'ahoy-matey3', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/ahoy-matey4/ahoy-matey4.module#AhoyMatey4PageModule', name: 'AhoyMatey4Page', segment: 'ahoy-matey4', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/become-a-tourest-in-your-own-city/become-a-tourest-in-your-own-city.module#BecomeATourestInYourOwnCityPageModule', name: 'BecomeATourestInYourOwnCityPage', segment: 'become-a-tourest-in-your-own-city', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/chop-tops-and-greasers/chop-tops-and-greasers.module#ChopTopsAndGreasersPageModule', name: 'ChopTopsAndGreasersPage', segment: 'chop-tops-and-greasers', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/experience-the-wild-west/experience-the-wild-west.module#ExperienceTheWildWestPageModule', name: 'ExperienceTheWildWestPage', segment: 'experience-the-wild-west', priority: 'low', defaultHistory: [] },
@@ -472,7 +492,7 @@ var AhoyMateyPage = (function () {
 AhoyMateyPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-ahoy-matey',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/ahoy-matey/ahoy-matey.html"*/'<!--\n  Generated template for the AhoyMateyPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>AhoyMatey</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <h1>Hello World</h1>\n    <br/>\n    <p>Congratulations, you have chosen the adventure of a CREATIVEDATE.\n      <br/><br/>\n      Your first task is to get ready to go. You and your date must dress for a\n      casual night on the town.\n      <br/>\n      Be prepared as you may be asked to accomplish CHALLENGES and CHOICES, which\n      may include walking, being outside, and even talking!\n      <br/>\n      You must bring your ID and Phone.\n      <br/>\n      This date is best used starting anytime after 2pm, any day of the week.\n      <br/><br/>\n      You and your date must drive to Pier 57 at 1301 Alaskan Way.\n      <br/>\n      *You won’t be staying for long, so don’t pay for more then 1.5 hours of parking\n    </p>\n      <h3>When you arrive, open your next clue.</h3>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/ahoy-matey/ahoy-matey.html"*/,
+        selector: 'page-ahoy-matey',template:/*ion-inline-start:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/ahoy-matey/ahoy-matey.html"*/'<!--\n  Generated template for the AhoyMateyPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>AhoyMatey</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-card>\n    <h1>Hello World</h1>\n    <br/>\n    <p>Congratulations, you have chosen the adventure of a CREATIVEDATE.\n      <br/><br/>\n      Your first task is to get ready to go. You and your date must dress for a\n      casual night on the town.\n      <br/>\n      Be prepared as you may be asked to accomplish CHALLENGES and CHOICES, which\n      may include walking, being outside, and even talking!\n      <br/>\n      You must bring your ID and Phone.\n      <br/>\n      This date is best used starting anytime after 2pm, any day of the week.\n      <br/><br/>\n      You and your date must drive to Pier 57 at 1301 Alaskan Way.\n      <br/>\n      *You won’t be staying for long, so don’t pay for more then 1.5 hours of parking\n    </p>\n      <h3>When you arrive, open your next clue.</h3>\n      <button ion-button (click)="nextPage()";>next page</button>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"/Users/kylefirstenberg/code/projects/creativeDate/src/pages/ahoy-matey/ahoy-matey.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], AhoyMateyPage);
